@@ -2,6 +2,15 @@
     
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
+::-webkit-scrollbar{
+    background-color: #CCF8B3;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #7AC750;
+}
+
 /*COLORS*/
 .bg-pink-light{
     background-color: #FFF6EF !important;
