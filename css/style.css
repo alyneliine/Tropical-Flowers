@@ -1,29 +1,34 @@
 * {
-    
+
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     background-color: #CCF8B3;
     width: 5px;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background-color: #7AC750;
 }
 
 /*COLORS*/
-.bg-pink-light{
+.bg-pink-light {
     background-color: #FFF6EF !important;
 }
-.bg-green{
+
+.bg-green {
     background-color: #245F43 !important;
 }
-.bg-green-light{
+
+.bg-green-light {
     background-color: #CCF8B3 !important;
 }
-.bg-green-meddiun{
+
+.bg-green-meddiun {
     background-color: #7AC750 !important;
 }
+
 .submit-lente {
     position: absolute;
     left: 1rem;
@@ -34,46 +39,125 @@
     height: 100%;
     background-color: transparent;
 }
-.placeholder-light::placeholder{
+
+.placeholder-light::placeholder {
     color: rgba(255, 255, 255, 0.493) !important;
 }
-.div-shadow{
+
+.div-shadow {
     height: 100% !important;
 }
 
-.valorproduto{
-    color:  #7AC750;
- }
- .line{
-    width: 100%;
-    height: 1px;
-    background-color: #7AC750;
- }
+.valorproduto {
+    color: #7AC750;
+}
 
- .item-hover:hover{
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #7AC750;
+}
+
+.item-hover:hover {
     cursor: pointer;
     background-color: rgba(189, 181, 181, 0.25);
- }
- .login{
+}
+
+.login {
     z-index: 2000;
     background-color: rgba(0, 0, 0, 0.34);
- }
- .login-visible{
+}
+
+.login-visible {
     opacity: 1;
     display: flex;
     pointer-events: all;
- }
- .login-hidden{
+}
+
+.login-hidden {
     opacity: 0;
     display: none;
     pointer-events: none;
- }
+}
 
- .btn-entrar-popup{
+.btn-entrar-popup {
     width: 290px;
     height: 40px;
- }
- .btn-popup{
+}
+
+.btn-popup {
     width: 250px;
     height: 50px;
- }
+}
+
+.cart {
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.34);
+}
+
+.cart-visible {
+    opacity: 1;
+    display: flex;
+    pointer-events: all;
+}
+
+.cart-hidden {
+    opacity: 0;
+    display: none;
+    pointer-events: none;
+}
+
+.card {
+    margin-bottom: 1rem;
+    background-color: #F4F4F4 !important;
+}
+
+.card-title,
+.card-subtitle {
+    font-weight: 700;
+}
+
+.card-subtitle {
+    color: #7AC750 !important;
+}
+
+.quantity {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: inset 2px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    justify-content: center;
+    color: #245F43;
+    font-weight: 700;
+
+}
+
+#valor-total-flores,
+#valor-frete,
+#valor-valor-compra {
+    color: #245F43;
+}
+
+#label-total-flores,
+#label-frete,
+#label-descontos,
+#label-valor-compra {
+    font-weight: bold;
+}
+
+#valor-descontos {
+    color: #5F2424;
+}
+
+.btn-finalizar-compra {
+    width: 428px;
+    height: 62px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+
+}
