@@ -19,12 +19,12 @@
     <header>
         <nav>
             <div id="menu-lateral" class="d-flex flex-column">
-                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                     <svg class="" width="0" height="32">
-                        <use <i><img src="../assets/img/Icon_menu.svg"></i></use>
+                        
                     </svg>
                     <span class="fs-4">
-
+                        <i><img src="../assets/img/Icon_menu.svg"></i>
                     </span>
                 </a>
                 <hr>
@@ -102,7 +102,7 @@
                     </li>
 
                     <hr>
-                   <!-- <div class="dropdown">
+                    <div class="dropdown">
                         <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="../assets/img/do-utilizador.png" alt="" width="32" height="32"
@@ -129,58 +129,53 @@
 
                                 </a></li>
                         </ul>
-                    </div>-->
+                    </div>
             </div>
 
         </nav>
     </header>
     <section>
-        <div class="container">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-3 offset-md-4">
-                        <form>
-                            <fieldset>
-                                <legend>Adicionar Produto</legend>
-                                <div class="mb-3">
+        <div class="my-auto">
+            <div class="col-md-5 offset-md-4 bg-silver p-5 rounded-4">
+                <form class="my-auto">
+                    <fieldset>
+                        <legend>Adicionar Produto</legend>
+                        <div class="mb-3">
+                            <input type="text" id="disabledTextInput" class="form-control"
+                                placeholder="Nome do Produto">
+                        </div>
+                        <div class="row">
+                            <div class="mb-3">
+                                <input type="text" id="disabledTextInput" class="form-control" placeholder="Fornecedor">
+                            </div>
+                            <div class=" col-6 mb-3">
+                                <input type="text" id="disabledTextInput" class="form-control" placeholder="PREÇO R$">
+                            </div>
+                            <div class="col-6 mb-3 d-flex">
 
-                                    <input type="text" id="disabledTextInput" class="form-control"
-                                        placeholder="Nome do Produto">
-                                </div>
-                                <div class="mb-3">
-                                    <input type="text" id="disabledTextInput" class="form-control"
-                                        placeholder="Fornecedor">
-                                </div>
-                                <div class="mb-3">
-                                    <input type="text" id="disabledTextInput" class="form-control"
-                                        placeholder="PREÇO R$">
-                                </div>
-                                <div class="mb-3">
+                                <input type="text" id="disabledTextInput" class="form-control" placeholder="CUSTO">
+                            </div>
+                        </div>
 
-                                    <input type="text" id="disabledTextInput" class="form-control"
-                                            placeholder="CUSTO">
-                                </div>
-                                <div class="mb-3">
-                                    
-                                    <select id="disabledSelect" class="form-select">
-                                        <option>QUANTIDADE DISPONIVEL</option>
-                                    </select>
-                                </div>
-                                <div class="mb-3">
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Descrição</textarea>
-                                  </div>
-                                  <div class="mb-6">
-                                    <label for="formFileMultiple" class="form-label">Adicionar fotos</label>
-                                    <input class="form-control" type="file" id="formFileMultiple" multiple>
-                                  </div>
+                        <div class="mb-3">
 
-                                <button type="submit" class="btn text-white " style="background-color: #245F43;">Adicionar produto</button>
-                            </fieldset>
-                        </form>
-                    </div>
+                            <select id="disabledSelect" class="form-select">
+                                <option>QUANTIDADE DISPONIVEL</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                rows="3">Descrição</textarea>
+                        </div>
+                        <div class="mb-6">
+                            <label for="formFileMultiple" class="form-label">Adicionar fotos</label>
+                            <input class="form-control" type="file" id="formFileMultiple" multiple>
+                        </div>
 
-                </div>
-
+                        <button type="submit" class="btn text-white " style="background-color: #245F43;">Adicionar
+                            produto</button>
+                    </fieldset>
+                </form>
             </div>
         </div>
     </section>

@@ -29,6 +29,10 @@
 .bg-green-meddiun {
     background-color: #7AC750 !important;
 }
+.bg-silver{
+    background-color: rgb(238, 237, 237) !important;
+}
+
 
 .submit-lente {
     position: absolute;
