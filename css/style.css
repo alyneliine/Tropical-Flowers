@@ -162,4 +162,10 @@
     width: 100%;
 
 }
+#menu-lateral{
+    background-color: #245F43;
+    width: 280px;
+    height: 100vh;
+    position:fixed;
+}
 
