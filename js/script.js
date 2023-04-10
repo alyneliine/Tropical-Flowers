@@ -1,3 +1,4 @@
+(() => {
 let btnOpen = document.getElementById("btnOpen");
 let btnClose = document.getElementById("btnClose");
 btnOpen.onclick = () => {
@@ -24,3 +25,19 @@ btnClose.onclick = () => {
         login.classList.add("login-hidden")
     }
 }
+let btnCart = document.getElementById("btnCart");
+
+btnCart.onclick = () => {
+    let cart = document.getElementById("cart");
+
+    if(cart.classList.contains("cart-hidden")){
+        cart.classList.remove("cart-hidden")
+        cart.classList.add("cart-visible")
+    }
+    else{
+        cart.classList.remove("cart-visible")
+        cart.classList.add("cart-hidden")
+    }
+}
+
+})()
