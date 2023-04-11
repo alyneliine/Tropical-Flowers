@@ -184,8 +184,8 @@
     margin-left: 60%;
 }
 .produtos-preco{
-    position: fixed;
-    margin-top: -25%;
+    position: absolute;
+    margin-top: -22%;
     margin-left: 60%;
 }
 .tam-preco{
