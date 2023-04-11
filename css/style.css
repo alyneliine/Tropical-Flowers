@@ -172,4 +172,28 @@
     height: 100vh;
     position:fixed;
 }
-
+.img-fluid{
+    width: 600px;
+    position: flex;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.produtos-conteudo{
+    position: absolute;
+    margin-top: -48%;
+    margin-left: 60%;
+}
+.produtos-preco{
+    position: fixed;
+    margin-top: -25%;
+    margin-left: 60%;
+}
+.tam-preco{
+    font-size: 200%;
+    color: #7AC750;
+}
+.produtos-stars{
+    color: rgb(247, 205, 19);
+    font-size: 145%;
+    stroke: #bda946;  
+}
