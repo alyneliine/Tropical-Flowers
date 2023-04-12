@@ -182,22 +182,20 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-left: 100px;
 }
 .items_produtos{
     align-self: flex-end;
 }
 .select-image-produtos{
-    max-width: 500px;
-    border-radius: 10px;
+    max-width: 550px;
 }
 .select-image-produto img{
     width: 100%;
-    position: absolute;
-    margin-left: ;
 }
 .tumbnails-produtos{
     display: flex;
-    width: 500px;
+    width: 550px;
     justify-content: space-evenly;
     gap: 10px;
 }
@@ -217,7 +215,7 @@
     color: #7AC750;
 }
 .content-produtos{
-    max-width: 500px;
+    max-width: 550px;
     display: flex;
     flex-direction: column;
     gap: 15px;
