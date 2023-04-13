@@ -35,7 +35,7 @@
 .submit-lente {
     position: absolute;
     left: 1rem;
-    z-index: 10;
+    z-index: 1000;
     border: none;
     background: transparent;
     outline: none;
@@ -94,7 +94,7 @@
 }
 
 .cart {
-    z-index: 2000;
+    z-index: 1000;
     background-color: rgba(0, 0, 0, 0.34);
 }
 
@@ -111,7 +111,7 @@
 }
 
 .card {
-    margin-bottom: 1rem;
+    
     background-color: #F4F4F4 !important;
 }
 
@@ -193,7 +193,6 @@
 .select-image-produto img{
     width: 100%;
     position: absolute;
-    margin-left: ;
 }
 .tumbnails-produtos{
     display: flex;
