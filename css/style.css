@@ -297,5 +297,20 @@
     color: white;
     margin-left: 7%;
 }
-
+/*Tela-Contatos*/
+.container-contatos{
+    background-color: #245F43;
+   
+}
+.imagens-informacoes{
+    margin-right: 10%;
+}
+.container-infomais-contatos{
+    display: flex;
+    margin-left: 15%;
+    color: white;
+}
+.cor-texto-contatos{
+    color:#FBD4D4;
+}
 
