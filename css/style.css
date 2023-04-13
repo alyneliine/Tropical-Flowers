@@ -284,3 +284,18 @@
     font-size: 140%;
     stroke: #bda946;
 }
+/*Tela-Sobre*/
+.container-localizacao{
+    background-color: #245F43;
+    
+}
+.container-localizacao-dois{
+    margin-left: 12%;
+    
+}
+.texto-localizacao{
+    color: white;
+    margin-left: 7%;
+}
+
+
