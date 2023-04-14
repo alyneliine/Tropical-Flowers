@@ -197,3 +197,14 @@
     font-size: 145%;
     stroke: #bda946;  
 }
+.form-card{
+    padding: 30px;
+    
+}
+.btn-voltar{
+    height: 30px;
+    width: 30px;
+    margin-top: 2%;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    
+}

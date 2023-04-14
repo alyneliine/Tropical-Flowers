@@ -20,11 +20,12 @@
         <nav>
             <div id="menu-lateral" class="d-flex flex-column">
                 <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                    <svg class="" width="0" height="32">
-                        
+                    <svg class="" width="75px" height="">
+
                     </svg>
-                    <span class="fs-4">
-                        <i><img src="../assets/img/Icon_menu.svg"></i>
+                    <span class="fs-4 d-flex align-items-center">
+                        <i><img src="../assets/img/logo_tropical_flowers 4.svg"></i>
+
                     </span>
                 </a>
                 <hr>
@@ -42,16 +43,19 @@
                             data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
                             CLIENTES
                         </button>
-                        <div class="collapse" id="home-collapse" style="">
+                        <div class="collapse" id="home-collapse">
                             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                 <li><a href="#"
-                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">CONSULTAR</a>
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
+                                        &nbsp; &nbsp; &nbsp;CONSULTAR</a>
                                 </li>
                                 <li><a href="#"
-                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">CADASTRO</a>
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
+                                        &nbsp; &nbsp; &nbsp;CADASTRO</a>
                                 </li>
                                 <li><a href="#"
-                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">RELATÓRIOS</a>
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
+                                        &nbsp; &nbsp; &nbsp;RELATÓRIOS</a>
                                 </li>
                             </ul>
                         </div>
@@ -67,11 +71,13 @@
                         <div class="collapse" id="dashboard-collapse">
                             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                 <li><a href="#"
-                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">ADICIONAR
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
+                                        &nbsp; &nbsp; &nbsp;ADICIONAR
                                         PRODUTO</a></li>
 
                                 <li><a href="#"
-                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">RELATÓRIOS</a>
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
+                                        &nbsp; &nbsp; &nbsp;RELATÓRIOS</a>
                                 </li>
 
                             </ul>
@@ -86,16 +92,20 @@
                         <div class="collapse" id="orders-collapse">
                             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                 <li><a href="#"
-                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Novo</a>
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
+                                        &nbsp; &nbsp; &nbsp;Novo</a>
                                 </li>
                                 <li><a href="#"
-                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Processado</a>
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
+                                        &nbsp; &nbsp; &nbsp;Processado</a>
                                 </li>
                                 <li><a href="#"
-                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Enviado</a>
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
+                                        &nbsp; &nbsp; &nbsp;Enviado</a>
                                 </li>
                                 <li><a href="#"
-                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Devolvida</a>
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
+                                        &nbsp; &nbsp; &nbsp;Devolvida</a>
                                 </li>
                             </ul>
                         </div>
@@ -134,48 +144,61 @@
 
         </nav>
     </header>
-    <section>
-        <div class="my-auto">
-            <div class="col-md-5 offset-md-4 bg-silver p-5 rounded-4">
-                <form class="my-auto">
-                    <fieldset>
-                        <legend>Adicionar Produto</legend>
-                        <div class="mb-3">
-                            <input type="text" id="disabledTextInput" class="form-control"
-                                placeholder="Nome do Produto">
-                        </div>
-                        <div class="row">
+    <section class="container-fluid">
+        <div>
+            <div class="offset-md-4 p-3 d-flex">
+                <i><img src="../assets/img/btn-voltar.svg" class="btn-voltar offset-md-4 mb-3"></i>
+                &nbsp; &nbsp; &nbsp;
+                <h3>Adicionar Produto</h3>
+            </div>
+
+
+            <div class="form-card">
+
+                <div class="col-md-5 offset-md-4 bg-silver p-5 rounded-4">
+                    <form class="form-add-produto">
+
+                        <fieldset>
+                            <legend>Produto</legend>
                             <div class="mb-3">
-                                <input type="text" id="disabledTextInput" class="form-control" placeholder="Fornecedor">
+                                <input type="text" id="disabledTextInput" class="form-control"
+                                    placeholder="Nome do Produto">
                             </div>
-                            <div class=" col-6 mb-3">
-                                <input type="text" id="disabledTextInput" class="form-control" placeholder="PREÇO R$">
+                            <div class="row">
+                                <div class="mb-3">
+                                    <input type="text" id="disabledTextInput" class="form-control"
+                                        placeholder="Fornecedor">
+                                </div>
+                                <div class=" col-6 mb-3">
+                                    <input type="text" id="disabledTextInput" class="form-control"
+                                        placeholder="PREÇO R$">
+                                </div>
+                                <div class="col-6 mb-3">
+
+                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="CUSTO">
+                                </div>
                             </div>
-                            <div class="col-6 mb-3 d-flex">
 
-                                <input type="text" id="disabledTextInput" class="form-control" placeholder="CUSTO">
+                            <div class="mb-3">
+
+                                <select id="disabledSelect" class="form-select">
+                                    <option>QUANTIDADE DISPONIVEL</option>
+                                </select>
                             </div>
-                        </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="exampleFormControlTextarea1"
+                                    rows="3">Descrição</textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label for="formFileMultiple" class="form-label">Adicionar fotos</label>
+                                <input class="form-control" type="file" id="formFileMultiple" multiple>
+                            </div>
 
-                        <div class="mb-3">
-
-                            <select id="disabledSelect" class="form-select">
-                                <option>QUANTIDADE DISPONIVEL</option>
-                            </select>
-                        </div>
-                        <div class="mb-3">
-                            <textarea class="form-control" id="exampleFormControlTextarea1"
-                                rows="3">Descrição</textarea>
-                        </div>
-                        <div class="mb-6">
-                            <label for="formFileMultiple" class="form-label">Adicionar fotos</label>
-                            <input class="form-control" type="file" id="formFileMultiple" multiple>
-                        </div>
-
-                        <button type="submit" class="btn text-white " style="background-color: #245F43;">Adicionar
-                            produto</button>
-                    </fieldset>
-                </form>
+                            <button type="submit" class="btn text-white " style="background-color: #245F43;">Adicionar
+                                produto</button>
+                        </fieldset>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
