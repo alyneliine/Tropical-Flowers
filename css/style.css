@@ -221,7 +221,7 @@
     flex-direction: column;
     gap: 15px;
 }
-<<<<<<< HEAD
+
 .form-card{
     padding: 30px;
     
@@ -233,7 +233,7 @@
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     
 }
-=======
+
 .prices{
     display: flex;
     flex-direction: column;
@@ -326,5 +326,3 @@
 .cor-texto-contatos{
     color:#FBD4D4;
 }
-
->>>>>>> d000bccf9d5f111a5978367f36b440c6339f2fd8
