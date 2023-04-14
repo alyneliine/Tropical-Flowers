@@ -26,8 +26,21 @@ btnClose.onclick = () => {
     }
 }
 let btnCart = document.getElementById("btnCart");
+let btnCartClose = document.getElementById("btnCartClose");
 
 btnCart.onclick = () => {
+    let cart = document.getElementById("cart");
+
+    if(cart.classList.contains("cart-hidden")){
+        cart.classList.remove("cart-hidden")
+        cart.classList.add("cart-visible")
+    }
+    else{
+        cart.classList.remove("cart-visible")
+        cart.classList.add("cart-hidden")
+    }
+}
+btnCartClose.onclick = () => {
     let cart = document.getElementById("cart");
 
     if(cart.classList.contains("cart-hidden")){

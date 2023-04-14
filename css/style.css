@@ -1,6 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
@@ -37,7 +35,7 @@
 .submit-lente {
     position: absolute;
     left: 1rem;
-    z-index: 10;
+    z-index: 1000;
     border: none;
     background: transparent;
     outline: none;
@@ -96,7 +94,7 @@
 }
 
 .cart {
-    z-index: 2000;
+    z-index: 1000;
     background-color: rgba(0, 0, 0, 0.34);
 }
 
@@ -113,7 +111,7 @@
 }
 
 .card {
-    margin-bottom: 1rem;
+    
     background-color: #F4F4F4 !important;
 }
 
@@ -172,31 +170,58 @@
     height: 100vh;
     position:fixed;
 }
-.img-fluid{
-    width: 600px;
-    position: flex;
-    margin-left: 20%;
-    margin-top: 2%;
+.container-produtos{
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 85px);
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 }
-.produtos-conteudo{
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 100px;
+}
+.items_produtos{
+    align-self: flex-end;
+}
+.select-image-produtos{
+    max-width: 550px;
+}
+.select-image-produto img{
+    width: 100%;
     position: absolute;
-    margin-top: -48%;
-    margin-left: 60%;
 }
-.produtos-preco{
-    position: absolute;
-    margin-top: -22%;
-    margin-left: 60%;
+.tumbnails-produtos{
+    display: flex;
+    width: 550px;
+    justify-content: space-evenly;
+    gap: 10px;
 }
-.tam-preco{
-    font-size: 200%;
+.tumbnail-produto img{
+    width: 100%;
+    border-radius: 10px;
+}
+.right-side{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.right-side h6{
+    color: #245F43;
+}
+.right-side h1{
     color: #7AC750;
 }
-.produtos-stars{
-    color: rgb(247, 205, 19);
-    font-size: 145%;
-    stroke: #bda946;  
+.content-produtos{
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
+<<<<<<< HEAD
 .form-card{
     padding: 30px;
     
@@ -208,3 +233,98 @@
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     
 }
+=======
+.prices{
+    display: flex;
+    flex-direction: column;
+}
+.price{
+    font-size: 30px;
+    font-weight: 700;
+    color: #7AC750;
+}
+.off{
+    font-size: 25px;
+    color: #ccc;
+    text-decoration: line-through;
+}
+.amount-produtos{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #245F43;
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 10px;
+}
+.options-produtos{
+    display: flex;
+    gap: 20px;
+}
+.amount-produtos span{
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+.minus, .plus{
+    cursor: pointer;
+}
+.minus img{
+   width: 15px;
+}
+.plus img{
+    width: 15px;
+}
+.button-cart{
+    display: inline-block;
+    text-decoration: none;
+    color: #F4F4F4;
+    background-color: #7AC750;
+    padding: 10px 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.button-cart img{
+   color: rgb(247, 205, 19);
+}
+.icons-stars{
+    color: rgb(247, 205, 19);
+    font-size: 140%;
+    stroke: #bda946;
+}
+/*Tela-Sobre*/
+.container-localizacao{
+    background-color: #245F43;
+    
+}
+.container-localizacao-dois{
+    margin-left: 12%;
+    
+}
+.texto-localizacao{
+    color: white;
+    margin-left: 7%;
+}
+/*Tela-Contatos*/
+.container-contatos{
+    background-color: #245F43;
+   
+}
+.imagens-informacoes{
+    margin-right: 10%;
+}
+.container-infomais-contatos{
+    display: flex;
+    margin-left: 15%;
+    color: white;
+}
+.cor-texto-contatos{
+    color:#FBD4D4;
+}
+
+>>>>>>> d000bccf9d5f111a5978367f36b440c6339f2fd8
