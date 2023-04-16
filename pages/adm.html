@@ -18,133 +18,135 @@
 
     <header>
         <nav>
-            <div id="menu-lateral" class="d-flex flex-column">
-                <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                    <svg class="" width="75px" height="">
+            <div>
+                <div id="menu-lateral" class="collapse d-flex flex-column">
+                    <a href=""
+                        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <svg class="" width="75px" height="">
+                        </svg>
+                        <span class="fs-4 d-flex align-items-center">
+                            <i><img src="../assets/img/logo_tropical_flowers 4.svg"></i>
 
-                    </svg>
-                    <span class="fs-4 d-flex align-items-center">
-                        <i><img src="../assets/img/logo_tropical_flowers 4.svg"></i>
-
-                    </span>
-                </a>
-                <hr>
-                <ul class="list-unstyled ps-0">
-                    <li class="mb-1">
-                        <div>
+                        </span>
+                    </a>
+                    <hr>
+                    <ul class="list-unstyled ps-0">
+                        <li class="mb-1">
+                            <div>
+                                <button
+                                    class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white"
+                                    data-bs-toggle="collapse" data-bs-target="#home" aria-expanded="false">
+                                    MENU
+                                </button>
+                            </div>
                             <button
                                 class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white"
-                                data-bs-toggle="collapse" data-bs-target="#home" aria-expanded="false">
-                                MENU
+                                data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+                                CLIENTES
                             </button>
-                        </div>
-                        <button
-                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white"
-                            data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
-                            CLIENTES
-                        </button>
-                        <div class="collapse" id="home-collapse">
-                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                <li><a href="#"
-                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
-                                        &nbsp; &nbsp; &nbsp;CONSULTAR</a>
+                            <div class="collapse" id="home-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="#"
+                                            class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
+                                            &nbsp; &nbsp; &nbsp;CONSULTAR</a>
+                                    </li>
+                                    <li><a href="#"
+                                            class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
+                                            &nbsp; &nbsp; &nbsp;CADASTRO</a>
+                                    </li>
+                                    <li><a href="#"
+                                            class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
+                                            &nbsp; &nbsp; &nbsp;RELATÓRIOS</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="mb-1">
+                            <button
+                                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white"
+                                data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                                <i>PRODUTOS
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <img src="../assets/img/fi-br-angle-small-down.svg"></i>
+                            </button>
+                            <div class="collapse" id="dashboard-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="#"
+                                            class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
+                                            &nbsp; &nbsp; &nbsp;ADICIONAR
+                                            PRODUTO</a></li>
+
+                                    <li><a href="#"
+                                            class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
+                                            &nbsp; &nbsp; &nbsp;RELATÓRIOS</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="mb-1">
+                            <button
+                                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white"
+                                data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                                PEDIDOS
+                            </button>
+                            <div class="collapse" id="orders-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="#"
+                                            class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
+                                            &nbsp; &nbsp; &nbsp;Novo</a>
+                                    </li>
+                                    <li><a href="#"
+                                            class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
+                                            &nbsp; &nbsp; &nbsp;Processado</a>
+                                    </li>
+                                    <li><a href="#"
+                                            class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
+                                            &nbsp; &nbsp; &nbsp;Enviado</a>
+                                    </li>
+                                    <li><a href="#"
+                                            class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
+                                            &nbsp; &nbsp; &nbsp;Devolvida</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <hr>
+                        <div class="dropdown">
+                            <a href="#"
+                                class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="../assets/img/do-utilizador.png" alt="" width="32" height="32"
+                                    class="rounded-circle me-2">
+                                <strong>
+                                    Usuário
+                                </strong>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu" style="background-color: #245F43;">
+                                <li><a class="dropdown-item text-white" href="#">
+                                        Usuarios
+                                    </a></li>
+                                <li><a class="dropdown-item text-white" href="#">
+                                        Configurações
+                                    </a></li>
+                                <li><a class="dropdown-item text-white" href="#">
+                                        Perfil
+                                    </a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
                                 </li>
-                                <li><a href="#"
-                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
-                                        &nbsp; &nbsp; &nbsp;CADASTRO</a>
-                                </li>
-                                <li><a href="#"
-                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
-                                        &nbsp; &nbsp; &nbsp;RELATÓRIOS</a>
-                                </li>
+                                <li><a class="dropdown-item text-white" href="#">
+                                        sair
+
+                                    </a></li>
                             </ul>
                         </div>
-                    </li>
-                    <li class="mb-1">
-                        <button
-                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white"
-                            data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-                            <i>PRODUTOS
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <img src="../assets/img/fi-br-angle-small-down.svg"></i>
-                        </button>
-                        <div class="collapse" id="dashboard-collapse">
-                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                <li><a href="#"
-                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
-                                        &nbsp; &nbsp; &nbsp;ADICIONAR
-                                        PRODUTO</a></li>
-
-                                <li><a href="#"
-                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
-                                        &nbsp; &nbsp; &nbsp;RELATÓRIOS</a>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="mb-1">
-                        <button
-                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white"
-                            data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-                            PEDIDOS
-                        </button>
-                        <div class="collapse" id="orders-collapse">
-                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                <li><a href="#"
-                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
-                                        &nbsp; &nbsp; &nbsp;Novo</a>
-                                </li>
-                                <li><a href="#"
-                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
-                                        &nbsp; &nbsp; &nbsp;Processado</a>
-                                </li>
-                                <li><a href="#"
-                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
-                                        &nbsp; &nbsp; &nbsp;Enviado</a>
-                                </li>
-                                <li><a href="#"
-                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">
-                                        &nbsp; &nbsp; &nbsp;Devolvida</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <hr>
-                    <div class="dropdown">
-                        <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="../assets/img/do-utilizador.png" alt="" width="32" height="32"
-                                class="rounded-circle me-2">
-                            <strong>
-                                Usuário
-                            </strong>
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu" style="background-color: #245F43;">
-                            <li><a class="dropdown-item text-white" href="#">
-                                    Usuarios
-                                </a></li>
-                            <li><a class="dropdown-item text-white" href="#">
-                                    Configurações
-                                </a></li>
-                            <li><a class="dropdown-item text-white" href="#">
-                                    Perfil
-                                </a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item text-white" href="#">
-                                    sair
-
-                                </a></li>
-                        </ul>
-                    </div>
+                </div>
             </div>
-
         </nav>
     </header>
-    <section class="container-fluid">
+    <section class="container-fluid offset-mt-4">
         <div>
             <div class="offset-md-4 p-3 d-flex">
                 <i><img src="../assets/img/btn-voltar.svg" class="btn-voltar offset-md-4 mb-3"></i>
