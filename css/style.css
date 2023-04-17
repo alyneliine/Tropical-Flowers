@@ -164,11 +164,26 @@
     width: 100%;
 
 }
+.buttonIcon{
+    background-color: #245F43;
+    border: none;
+    color: white;
+}
+.btn-warning{
+    background-color: white ;
+    border-radius: 25px;
+}
+
 #menu-lateral{
     background-color: #245F43;
-    width: 280px;
+    width: 20vw;
+    height: 90vh;
+}
+#offcanvasScrolling{
+    margin-top: 100px;
+    width: 20vw;
     height: 100vh;
-    position:fixed;
+    position: absolute;
 }
 .container-produtos{
     display: flex;
@@ -223,16 +238,25 @@
 }
 
 .form-card{
-    padding: 30px;
+    padding: 0px;
+   
+}
+.form-card-2{
+    padding: 0px;
+    
+}
+.form-card-3{
+    padding-top: 30px;
     
 }
 .btn-voltar{
     height: 30px;
     width: 30px;
-    margin-top: 2%;
+    margin-top: 0%;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     
 }
+
 
 .prices{
     display: flex;
