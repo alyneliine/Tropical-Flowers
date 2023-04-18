@@ -324,7 +324,53 @@
     font-size: 140%;
     stroke: #bda946;
 }
+
 /*Tela-Sobre*/
+.imagens-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+
+}
+.container-card-sobre{
+    width: 1150px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-tela-sobre{
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 40px;
+    width: 250px;
+    background-color:#8DCB6B;
+    margin: 40px;
+    border-radius:40px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.card-tela-sobre-centro{
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 31px;
+    width: 250px;
+    background-color:#8DCB6B;
+    margin: 40px;
+    border-radius:40px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.contander-texto-about-um{
+    text-align: justify;
+}
+.contander-texto-about-dois{
+    text-align: center;
+}
 .container-localizacao{
     background-color: #245F43;
     
