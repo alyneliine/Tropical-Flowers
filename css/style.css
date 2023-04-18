@@ -180,10 +180,14 @@
     height: 90vh;
 }
 #offcanvasScrolling{
-    margin-top: 100px;
+    
     width: 20vw;
     height: 100vh;
-    position: absolute;
+    
+}
+.navbar{
+    width: 80vw;
+    margin-left: 20%;
 }
 .container-produtos{
     display: flex;
