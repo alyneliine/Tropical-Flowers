@@ -386,16 +386,32 @@
 /*Tela-Contatos*/
 .container-contatos{
     background-color: #245F43;
-   
-}
-.imagens-informacoes{
-    margin-right: 10%;
-}
-.container-infomais-contatos{
     display: flex;
-    margin-left: 15%;
-    color: white;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh; 
 }
-.cor-texto-contatos{
-    color:#FBD4D4;
+.container-card-contatos{
+    width: 1150px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.card-tela-contatos{
+    color: white;
+    position: relative;
+    text-align: left;
+    padding: 30px;
+    width: 300px;
+    background-color:#245F43;
+    margin: 40px;
+    border-radius:10px;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+.card-tela-contatos .cor-texto-contatos{
+    color: rgb(199, 193, 193);
 }
