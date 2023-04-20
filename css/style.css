@@ -330,7 +330,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 50vh;
+    min-height: 65vh;
 
 }
 .container-card-sobre{
@@ -373,17 +373,22 @@
 }
 .container-localizacao{
     background-color: #245F43;
-    
+    padding: 80px; 
 }
 .container-localizacao-dois{
-    margin-left: 12%;
-    
+    margin-left: 12%; 
 }
 .texto-localizacao{
     color: white;
     margin-left: 7%;
 }
 /*Tela-Contatos*/
+.titulo-contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 32vh; 
+}
 .container-contatos{
     background-color: #245F43;
     display: flex;
@@ -403,7 +408,7 @@
     color: white;
     position: relative;
     text-align: left;
-    padding: 30px;
+    padding: 40px;
     width: 300px;
     background-color:#245F43;
     margin: 40px;
@@ -415,3 +420,4 @@
 .card-tela-contatos .cor-texto-contatos{
     color: rgb(199, 193, 193);
 }
+
