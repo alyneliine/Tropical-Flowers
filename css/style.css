@@ -383,6 +383,9 @@
     transition: 0.5s;
 
 }
+.contander-texto-contatos .h5{
+    display: flex;
+}
 .card-tela-contatos .cor-texto-contatos{
     color: rgb(199, 193, 193);
 }
