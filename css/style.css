@@ -174,11 +174,6 @@
     border-radius: 25px;
 }
 
-#menu-lateral{
-    background-color: #245F43;
-    width: 50vw;
-    height: 70vh;
-}
 #offcanvasScrolling{
     width: 20vw;
     height: 100vh;
@@ -206,14 +201,31 @@
  margin-top: 30px; 
     
 }
-@media (max-width: 767px) {
+.aside{
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 20%;
+}
+@media (max-width: 992px){
     .aside{
-        width: 10%;
-    }
-    ul{
-        display: none;
+        width: 25%;
     }
 }
+@media (max-width: 768px){
+    .aside{
+        width: 50px;
+    }
+}
+/* --bs-breakpoint-xs: 0;
+    --bs-breakpoint-sm: 576px;
+    --bs-breakpoint-md: 768px;
+    --bs-breakpoint-lg: 992px;
+    --bs-breakpoint-xl: 1200px;
+    --bs-breakpoint-xxl: 1400px; */
+
+
 .btn-voltar{
     height: 30px;
     width: 30px;
