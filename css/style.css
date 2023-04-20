@@ -194,12 +194,25 @@
    
 }
 .form-card-2{
-    padding: 0px;
+    padding-top: 30px;
     
 }
 .form-card-3{
     padding-top: 30px;
     
+}
+.btn-adicionar{
+ position: static;
+ margin-top: 30px; 
+    
+}
+@media (max-width: 767px) {
+    .aside{
+        width: 10%;
+    }
+    ul{
+        display: none;
+    }
 }
 .btn-voltar{
     height: 30px;
