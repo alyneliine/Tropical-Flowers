@@ -188,57 +188,6 @@
     width: 80vw;
     margin-left: 20%;
 }
-.container-produtos{
-    display: flex;
-    width: 100%;
-    height: calc(100vh - 85px);
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-}
-.left-side{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-left: 100px;
-}
-.items_produtos{
-    align-self: flex-end;
-}
-.select-image-produtos{
-    max-width: 550px;
-}
-.select-image-produto img{
-    width: 100%;
-    position: absolute;
-}
-.tumbnails-produtos{
-    display: flex;
-    width: 550px;
-    justify-content: space-evenly;
-    gap: 10px;
-}
-.tumbnail-produto img{
-    width: 100%;
-    border-radius: 10px;
-}
-.right-side{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.right-side h6{
-    color: #245F43;
-}
-.right-side h1{
-    color: #7AC750;
-}
-.content-produtos{
-    max-width: 550px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
 
 .form-card{
     padding: 0px;
@@ -323,6 +272,9 @@
     color: rgb(247, 205, 19);
     font-size: 140%;
     stroke: #bda946;
+}
+.tumbnail-produto img{
+ width: 100%;
 }
 
 /*Tela-Sobre*/
