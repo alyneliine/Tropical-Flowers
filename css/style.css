@@ -250,13 +250,10 @@
     text-decoration: line-through;
 }
 .amount-produtos{
-    display: flex;
-    align-items: center;
-    gap: 30px;
+    
     background-color: #245F43;
     padding: 10px 20px;
-    width: fit-content;
-    border-radius: 10px;
+   
 }
 .options-produtos{
     display: flex;
@@ -277,16 +274,8 @@
     width: 15px;
 }
 .button-cart{
-    display: inline-block;
-    text-decoration: none;
     color: #F4F4F4;
     background-color: #7AC750;
-    padding: 10px 35px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    width: fit-content;
-    gap: 5px;
     font-size: 20px;
     font-weight: 700;
 }
