@@ -174,11 +174,6 @@
     border-radius: 25px;
 }
 
-#menu-lateral{
-    background-color: #245F43;
-    width: 50vw;
-    height: 70vh;
-}
 #offcanvasScrolling{
     width: 20vw;
     height: 100vh;
@@ -188,70 +183,49 @@
     width: 80vw;
     margin-left: 20%;
 }
-.container-produtos{
-    display: flex;
-    width: 100%;
-    height: calc(100vh - 85px);
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-}
-.left-side{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-left: 100px;
-}
-.items_produtos{
-    align-self: flex-end;
-}
-.select-image-produtos{
-    max-width: 550px;
-}
-.select-image-produto img{
-    width: 100%;
-    position: absolute;
-}
-.tumbnails-produtos{
-    display: flex;
-    width: 550px;
-    justify-content: space-evenly;
-    gap: 10px;
-}
-.tumbnail-produto img{
-    width: 100%;
-    border-radius: 10px;
-}
-.right-side{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.right-side h6{
-    color: #245F43;
-}
-.right-side h1{
-    color: #7AC750;
-}
-.content-produtos{
-    max-width: 550px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
 
 .form-card{
     padding: 0px;
    
 }
 .form-card-2{
-    padding: 0px;
+    padding-top: 30px;
     
 }
 .form-card-3{
     padding-top: 30px;
     
 }
+.btn-adicionar{
+ position: static;
+ margin-top: 30px; 
+    
+}
+.aside{
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 20%;
+}
+@media (max-width: 992px){
+    .aside{
+        width: 25%;
+    }
+}
+@media (max-width: 768px){
+    .aside{
+        width: 50px;
+    }
+}
+/* --bs-breakpoint-xs: 0;
+    --bs-breakpoint-sm: 576px;
+    --bs-breakpoint-md: 768px;
+    --bs-breakpoint-lg: 992px;
+    --bs-breakpoint-xl: 1200px;
+    --bs-breakpoint-xxl: 1400px; */
+
+
 .btn-voltar{
     height: 30px;
     width: 30px;
@@ -276,13 +250,10 @@
     text-decoration: line-through;
 }
 .amount-produtos{
-    display: flex;
-    align-items: center;
-    gap: 30px;
+    
     background-color: #245F43;
     padding: 10px 20px;
-    width: fit-content;
-    border-radius: 10px;
+   
 }
 .options-produtos{
     display: flex;
@@ -303,16 +274,8 @@
     width: 15px;
 }
 .button-cart{
-    display: inline-block;
-    text-decoration: none;
     color: #F4F4F4;
     background-color: #7AC750;
-    padding: 10px 35px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    width: fit-content;
-    gap: 5px;
     font-size: 20px;
     font-weight: 700;
 }
@@ -323,6 +286,9 @@
     color: rgb(247, 205, 19);
     font-size: 140%;
     stroke: #bda946;
+}
+.tumbnail-produto img{
+ width: 100%;
 }
 
 /*Tela-Sobre*/

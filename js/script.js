@@ -52,5 +52,4 @@ btnCartClose.onclick = () => {
         cart.classList.add("cart-hidden")
     }
 }
-
 })()
