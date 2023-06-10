@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <title>Home Page</title>
 </head>
 
@@ -29,24 +30,22 @@
           </div>
           <div class="form-group">
             <input type="password" class="form-control bg-pink-light rounded-4 mb-2 mt-2 p-2 border-1 border-black"
-              id="exampleInputPassword1" placeholder="Senha">
+              id="exampleInputPassword1" placeholder="Password">
           </div>
         </div>
 
         <div class="form-group text-end mb-4">
-          <a href="#" class="text-decoration-none text-black">Esqueci minha senha</a>
+          <a href="#" class="text-decoration-none text-black">I forgot my password</a>
         </div>
         <div>
           <button type="button" class="btn-popup btn bg-pink-light rounded-4 m-2 mt-2 border-1 border-black"><i><img
-                src="./assets/img/google-37 1.svg" alt="Google"></i><span class="p-3">Entrar com
-              Google</span></button>
+                src="./assets/img/google-37 1.svg" alt="Google"></i><span class="p-3">Sign in with Google</span></button>
           <button type="button" class="btn-popup btn bg-pink-light rounded-4 m-2 mt-2 border-1 border-black"><i><img
-                src="./assets/img/facebook.svg" alt="Facebook"></i><span class="p-1">Entrar com
-              Facebook</span>
+                src="./assets/img/facebook.svg" alt="Facebook"></i><span class="p-1">Sign in with Facebook</span>
           </button>
-          <button type="submit" class="btn-entrar-popup btn bg-green-meddiun rounded-4 text-light my-4">Entrar</button>
+          <button type="submit" class="btn-entrar-popup btn bg-green-meddiun rounded-4 text-light my-4">Sign in</button>
           <div class="form-group sem-conta text-center mb-4 mt-2">
-            <p>Não tem conta? <a href="#" class="text-decoration-none" style="color:#7ED957;">Cadastre-se</a></p>
+            <p>Don't have an account? <a href="#" class="text-decoration-none" style="color:#7ED957;">Register</a></p>
           </div>
         </div>
       </form>
@@ -67,28 +66,28 @@
           <i><img src="./assets/img/pesquisar.svg" alt="Pesquisa"></i>
         </button>
         <input class="bg-transparent border-0 px-5 form-control mr-sm-2 placeholder-light rounded-4" type="search"
-          placeholder="Encontre suas flores" aria-label="Search">
+          placeholder="Find your flowers" aria-label="Search">
       </form>
       <ul class="navbar-nav mr-auto gap-0 gap-lg-5 text-center mt-4 mt-lg-0">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Início</span></a>
+          <a class="nav-link" href="index.html">Home</span></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            Produtos
+            Products
           </a>
           <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Vermelhos</a>
-            <a class="dropdown-item" href="#">Azuis</a>
-            <a class="dropdown-item" href="#">Outros</a>
+            <a class="dropdown-item" href="#">Birthday gifts</a>
+            <a class="dropdown-item" href="#">Top sellers</a>
+            <a class="dropdown-item" href="#">Others</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./pages/tela_sobre.html">Sobre</a>
+          <a class="nav-link" href="./pages/tela_sobre.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./pages/tela_contatos.html">Contatos</a>
+          <a class="nav-link" href="./pages/tela_contatos.html">Contacts</a>
         </li>
       </ul>
 
@@ -96,14 +95,14 @@
         <button id="btnCart" class="btn bg-transparent border-1 border-success rounded-4" type="button">
           <i><img class="object-fit-cover" src="./assets/img/CartIcon.svg" alt="" srcset=""></i>
         </button>
-        <button id="btnOpen" type="button" class="btn bg-green text-light py-2 rounded-4">Entre</button>
+        <button id="btnOpen" type="button" class="btn bg-green text-light py-2 rounded-4">Sign in</button>
       </div>
     </div>
   </nav>
   <div id="cart" class="position-fixed fixed-top h-100 w-100 justify-content-end cart cart-hidden ">
     <div class="bg-white p-3 overflow-y-scroll">
       <div class="d-flex justify-content-center position-relative">
-        <h4 class="text-center my-3">Carrinho de Flores</h4>
+        <h4 class="text-center my-3">Flower cart</h4>
         <button id="btnCartClose" class="btn border-0 bg-transparent position-absolute" style="top: 12px; right: 0px;">
           <i><img src="./assets/img/sair.svg" alt="Sair"></i>
         </button>
@@ -114,7 +113,7 @@
             <div><img class="object-fit-cover" style="height: 80px; width: 80px;" src="./assets/img/heliconias.svg">
             </div>
             <div class="d-flex flex-column gap-3">
-              <p class="card-title">Arranajo de helicônias</p>
+              <p class="card-title">Heliconia arrangement</p>
               <p class="card-subtitle">R$ 234,00</p>
             </div>
             <div class="d-flex">
@@ -130,7 +129,7 @@
             <div><img class="object-fit-cover" style="height: 80px; width: 80px;" src="./assets/img/heliconias.svg">
             </div>
             <div class="d-flex flex-column gap-3">
-              <p class="card-title">Arranajo de helicônias</p>
+              <p class="card-title">Heliconia arrangement</p>
               <p class="card-subtitle">R$ 234,00</p>
             </div>
             <div class="d-flex">
@@ -146,7 +145,7 @@
             <div><img class="object-fit-cover" style="height: 80px; width: 80px;" src="./assets/img/heliconias.svg">
             </div>
             <div class="d-flex flex-column gap-3">
-              <p class="card-title">Arranajo de helicônias</p>
+              <p class="card-title">Heliconia arrangement</p>
               <p class="card-subtitle">R$ 234,00</p>
             </div>
             <div class="d-flex">
@@ -162,7 +161,7 @@
             <div><img class="object-fit-cover" style="height: 80px; width: 80px;" src="./assets/img/heliconias.svg">
             </div>
             <div class="d-flex flex-column gap-3">
-              <p class="card-title">Arranajo de helicônias</p>
+              <p class="card-title">Heliconia arrangement</p>
               <p class="card-subtitle">R$ 234,00</p>
             </div>
             <div class="d-flex">
@@ -178,7 +177,7 @@
             <div><img class="object-fit-cover" style="height: 80px; width: 80px;" src="./assets/img/heliconias.svg">
             </div>
             <div class="d-flex flex-column gap-3">
-              <p class="card-title">Arranajo de helicônias</p>
+              <p class="card-title">Heliconia arrangement</p>
               <p class="card-subtitle">R$ 234,00</p>
             </div>
             <div class="d-flex">
@@ -194,7 +193,7 @@
             <div><img class="object-fit-cover" style="height: 80px; width: 80px;" src="./assets/img/heliconias.svg">
             </div>
             <div class="d-flex flex-column gap-3">
-              <p class="card-title">Arranajo de helicônias</p>
+              <p class="card-title">Heliconia arrangement</p>
               <p class="card-subtitle">R$ 234,00</p>
             </div>
             <div class="d-flex">
@@ -208,62 +207,56 @@
       <div class="line my-3"></div>
       <div class="d-flex flex-column gap-2">
         <div class="d-flex justify-content-between">
-          <span id="label-total-flores">Total das Flores:</span>
+          <span id="label-total-flores">Total of flowers:</span>
           <span id="valor-total-flores">R$ 2749,00</span>
         </div>
         <div class="d-flex justify-content-between">
-          <span id="label-frete">Frete:</span>
+          <span id="label-frete">Shipping:</span>
           <span id="valor-frete">R$ 33,00</span>
         </div>
         <div class="d-flex justify-content-between">
-          <span id="label-descontos">Descontos:</span>
+          <span id="label-descontos">Discounts:</span>
           <span id="valor-descontos">R$ -130,00</span>
         </div>
         <div class="d-flex justify-content-between">
-          <span id="label-valor-compra">Valor da Compra:</span>
+          <span id="label-valor-compra">Purchase value:</span>
           <span id="valor-valor-compra">R$ 2652,00</span>
         </div>
-        <button type="submit py-4" class="btn-finalizar-compra btn bg-green rounded-4 text-light my-3">Finalizar
-          Compra</button>
+        <button type="submit py-4" class="btn-finalizar-compra btn bg-green rounded-4 text-light my-3">Finalize purchase</button>
       </div>
-
-
     </div>
   </div>
   <div class="container mt-4 ">
     <div class="row">
-      <div class="col-12 col-lg-6 h-100 mb-4 mb-lg-0">
-        <div class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100 object-fit-cover img-fluid rounded-4" src="./assets/img/heliconias.svg">
+      <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+        <div class="carousel slide h-100" data-ride="carousel">
+          <div class="carousel-inner h-100">
+            <div class="carousel-item h-100 active">
+              <img class="d-block w-100 h-100 object-fit-fill rounded-4" src="./assets/img/namorados.png">
             </div>
-            <div class="carousel-item">
-              <img class="d-block w-100 object-fit-cover img-fluid rounded-4" src="./assets/img/anturios.svg">
+            <div class="carousel-item  h-100">
+              <img class="d-block w-100 h-100 object-fit-fill rounded-4" src="./assets/img/mãess.png">
             </div>
-            <div class="carousel-item">
-              <img class="d-block w-100 object-fit-cover img-fluid rounded-4"
-                src="./assets/img/bastao-do-imperador.svg">
+            <div class="carousel-item h-100">
+              <img class="d-block w-100 h-100 object-fit-fill rounded-4" src="./assets/img/pais.png">
             </div>
           </div>
         </div>
       </div>
       <div class="col-12 col-lg-6 d-flex flex-column gap-4">
-        <div class="w-100 h-50 container bg-green-light p-4 rounded-4">
-          <h2>Feliz dia das Mães!</h2>
-          <p>Mães se doam por seus filhos e se entregam por completo todos os dias. Parabéns pelo Dia das
-            Mães, querida cliente!</p>
+        <div class="w-100 h-50 container bg-green-light p-3 rounded-4">
+          <h3>Come on!</h3>
+          <p>Discover the lush beauty of flowers and find the perfect gift to enchant your senses!</p>
         </div>
-        <div class="w-100 h-50 container bg-light p-4 rounded-4">
-          <h2>Feliz dia das Mães!</h2>
-          <p>Mães se doam por seus filhos e se entregam por completo todos os dias. Parabéns pelo Dia das
-            Mães, querida cliente!</p>
+        <div class="w-100 h-50 container bg-light p-3 rounded-4">
+          <h3>Create memories!</h3>
+          <p>Turn any occasion into memorable moments with the delicacy and fragrance of our carefully selected flowers!</p>
         </div>
       </div>
     </div>
     <div class="row mt-4">
       <div class="col-12 text-center mb-3">
-        <h6>Presentes de Aniversário</h6>
+        <h6>Birthday gifts</h6>
       </div>
       <div class="col-6 col-lg-3 justify-content-center mb-2 mb-lg-0 item-hover p-2 rounded-3"
         onclick="window.location.href = './pages/detalhes_produtos.html'">
@@ -271,10 +264,11 @@
           <img class="img-fluid d-block w-100" src="./assets/img/heliconias.svg" alt="Alpinea">
         </div>
         <div>
-          <p class="nomeproduto m-0 text-end">Arranjo de Helicônias</p>
-          <b>
-            <p class="valorproduto m-0 text-end">R$ 250,00</p>
-          </b>
+          <p class="nomeproduto m-0 text-end">Heliconia arrangement</p>
+          <div class="d-flex justify-content-between">
+            <div><i class="bi bi-plus-circle more"></i></div>
+            <div><b><p class="valorproduto m-0 text-end">R$ 250,00</p></b></div>
+          </div>        
         </div>
       </div>
       <div class="col-6 col-lg-3 justify-content-center mb-2 mb-lg-0 item-hover p-2 rounded-3">
@@ -283,9 +277,10 @@
         </div>
         <div>
           <p class="nomeproduto m-0 text-end">Bastão-do-Imperador</p>
-          <b>
-            <p class="valorproduto m-0 text-end">R$ 350,00</p>
-          </b>
+          <div class="d-flex justify-content-between">
+            <div><i class="bi bi-plus-circle more"></i></div>
+            <div><b><p class="valorproduto m-0 text-end">R$ 350,00</p></b></div>
+          </div> 
         </div>
       </div>
       <div class="col-6 col-lg-3 justify-content-center mb-2 mb-lg-0 item-hover p-2 rounded-3">
@@ -293,10 +288,11 @@
           <img class="img-fluid d-block w-100" src="./assets/img/anturios.svg" alt="Alpinea">
         </div>
         <div>
-          <p class="nomeproduto m-0 text-end">Antúrios</p>
-          <b>
-            <p class="valorproduto m-0 text-end">R$ 50,00</p>
-          </b>
+          <p class="nomeproduto m-0 text-end">Anthuriums</p>
+          <div class="d-flex justify-content-between">
+            <div><i class="bi bi-plus-circle more"></i></div>
+            <div><b><p class="valorproduto m-0 text-end">R$ 50,00</p></b></div>
+          </div> 
         </div>
       </div>
       <div class="col-6 col-lg-3 justify-content-center mb-2 mb-lg-0 item-hover p-2 rounded-3">
@@ -305,26 +301,28 @@
         </div>
         <div>
           <p class="nomeproduto m-0 text-end">Sorvetões Amarelos</p>
-          <b>
-            <p class="valorproduto m-0 text-end">R$ 200,00</p>
-          </b>
+          <div class="d-flex justify-content-between">
+            <div><i class="bi bi-plus-circle more"></i></div>
+            <div><b><p class="valorproduto m-0 text-end">R$ 200,00</p></b></div>
+          </div> 
         </div>
       </div>
     </div>
     <div class="line mt-4"></div>
     <div class="row mt-4">
       <div class="col-12 text-center mb-3">
-        <h6>Mais Vendidos</h6>
+        <h6>Top sellers</h6>
       </div>
       <div class="col-6 col-lg-3 justify-content-center mb-2 mb-lg-0 item-hover p-2 rounded-3">
         <div class="m-0 w-100">
           <img class="img-fluid d-block w-100" src="./assets/img/Alpinea.svg" alt="Alpinea">
         </div>
         <div>
-          <p class="nomeproduto m-0 text-end">Arranjo de Alpínea</p>
-          <b>
-            <p class="valorproduto m-0 text-end">R$ 180,00</p>
-          </b>
+          <p class="nomeproduto m-0 text-end">Alpinia arrangement</p>
+          <div class="d-flex justify-content-between">
+            <div><i class="bi bi-plus-circle more"></i></div>
+            <div><b><p class="valorproduto m-0 text-end">R$ 180,00</p></b></div>
+          </div> 
         </div>
       </div>
       <div class="col-6 col-lg-3 justify-content-center mb-2 mb-lg-0 item-hover p-2 rounded-3">
@@ -333,9 +331,10 @@
         </div>
         <div>
           <p class="nomeproduto m-0 text-end">Sorvetões</p>
-          <b>
-            <p class="valorproduto m-0 text-end">R$ 199,00</p>
-          </b>
+          <div class="d-flex justify-content-between">
+            <div><i class="bi bi-plus-circle more"></i></div>
+            <div><b><p class="valorproduto m-0 text-end">R$ 199,00</p></b></div>
+          </div> 
         </div>
       </div>
       <div class="col-6 col-lg-3 justify-content-center mb-2 mb-lg-0 item-hover p-2 rounded-3">
@@ -343,10 +342,11 @@
           <img class="img-fluid d-block w-100" src="./assets/img/broméliasananas.svg" alt="Alpinea">
         </div>
         <div>
-          <p class="nomeproduto m-0 text-end">Bromélias Ananas</p>
-          <b>
-            <p class="valorproduto m-0 text-end">R$ 300,00</p>
-          </b>
+          <p class="nomeproduto m-0 text-end">Ananas Bromeliads</p>
+          <div class="d-flex justify-content-between">
+            <div><i class="bi bi-plus-circle more"></i></div>
+            <div><b><p class="valorproduto m-0 text-end">R$ 300,00</p></b></div>
+          </div> 
         </div>
       </div>
       <div class="col-6 col-lg-3 justify-content-center mb-2 mb-lg-0 item-hover p-2 rounded-3">
@@ -354,17 +354,18 @@
           <img class="img-fluid d-block w-100" src="./assets/img/heliconiasrostrata.svg" alt="Alpinea">
         </div>
         <div>
-          <p class="nomeproduto m-0 text-end">Helicônias Rostrata</p>
-          <b>
-            <p class="valorproduto m-0 text-end">R$ 250,00</p>
-          </b>
+          <p class="nomeproduto m-0 text-end">Rostrata Heliconia</p>
+          <div class="d-flex justify-content-between">
+            <div><i class="bi bi-plus-circle more"></i></div>
+            <div><b><p class="valorproduto m-0 text-end">R$ 250,00</p></b></div>
+          </div> 
         </div>
       </div>
     </div>
   </div>
   <footer class="bg-green-light mt-5 p-4">
     <div class="container text-center">
-      <span class="text-muted ">Copyright Tropical Flowers © 2023 Versão 1.0.0</span>
+      <span class="text-muted ">Copyright Tropical Flowers © 2023 Version 1.0.0</span>
     </div>
   </footer>
   <script src="./js/script.js"></script>
