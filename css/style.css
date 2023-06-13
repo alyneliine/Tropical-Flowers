@@ -394,3 +394,18 @@
     color: rgb(199, 193, 193);
 }
 
+.card-add{
+    margin-top: 150px;
+}
+.card-title{
+    font-size: 40px;
+}
+.card-text{
+    font-size: 20px;
+}
+.icon-user{
+    margin-top: 350px;
+}
+.icon-tam{
+    font-size: 35px;
+}
